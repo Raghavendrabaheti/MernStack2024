@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-size: 20px;
+}
+body{
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://imgs.search.brave.com/T8H3WmDQD7EXv-mBzikbk7VvRafU_SFpg7AGLHnwNsQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3luZXJnaXN0aWNp/dC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDkvbWVy/bnN0YWNrLmpwZw);
+    justify-content: space-evenly;
+
+    /* position: absolute; */
+}
+.container{
+    display: flex;
+    width: 90%;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+}
+.ph1, .ph2 , .ph3, .ph4{
+   padding: 0;
+   /* border: 6px solid palevioletred; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   backdrop-filter: blur(50px);
+
+
+}
+p{
+   color: rgb(12, 50, 84); 
+}
+h1{
+    font-weight: bold;
+}
