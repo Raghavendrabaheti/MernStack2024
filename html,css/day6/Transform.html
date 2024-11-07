@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            height: 100px;
+            width: 100px;background-color: mediumturquoise;
+            margin: 200px auto;
+            /* transform: translate(100px,100px); */
+            /* transform: scale(1); */
+        }
+        .con:hover{
+            transform: scale(1.3);
+            transform: rotate(90deg);
+            filter: grayscale(0);
+        }
+        img{
+            transition: all 200ms ease-in-out;
+            filter: blur(5px);
+        }
+        img:hover{
+            transform: scale(1.3);
+            filter: blur(0);
+            /* filter: grayscale(1); */
+        }
+    </style>
+</head>
+<body>
+        <div class="con">
+            transform
+        </div>
+        <img src="https://imgs.search.brave.com/ah-41A0LDgHkYGnNEoEDN5DE07ufMbjeNPaAokX6NKE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9iL2I2L0lt/YWdlX2NyZWF0ZWRf/d2l0aF9hX21vYmls/ZV9waG9uZS5wbmcv/NjQwcHgtSW1hZ2Vf/Y3JlYXRlZF93aXRo/X2FfbW9iaWxlX3Bo/b25lLnBuZw" alt="">
+</body>
+</html>

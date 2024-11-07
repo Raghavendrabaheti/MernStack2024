@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+    width:100vw;
+    background-color: rgba(76,101,165,255);
+    color: white;
+}
+
+.navbar {
+    font-size: 15px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar button{
+    margin-left : 10px;
+    width: 45px;
+    height: 26px;
+    background-color: rgb(20, 82, 162);
+    color: white;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+
+}
+.navbar button:hover{
+    background-color: rgb(30, 67, 152);
+}
+.nav1{
+    margin-top: -18px;
+}
+.nav2{
+    margin: 12px;
+    align-items: start;
+
+}
+/* .nav2 span{
+    color: #93b7f2;
+} */
+.mid
+{
+    margin-top: -37%;
+    margin-left: 60%;
+    font-family: Arial, sans-serif;
+    height: 360px;
+    /* margin: 0; */
+}
+.logo{
+    margin-right: 50%;
+
+}
+.ph
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.ph img{
+    height: 477px;
+    width: 677px;
+}
+.m{
+    background-color: rgba(238,238,245,255);
+    height: 30pc;
+}
+.mid input {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.mid button {
+    height: 40px;
+    width: 15pc;
+    padding: 2px;
+    background-color: rgb(18, 137, 60);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.mid button:hover {
+    background-color: rgb(24, 89, 242);
+}
+footer{
+    background-color: rgba(255,254,254,255);
+}
+#mobile{
+    width: 21pc;
+    height: 22px;
+}
+#password{
+    width: 21pc;
+    height: 22px;
+}
+#firstname{
+    height: 22px;
+}
+#lastname{
+    height: 22px;
+}
+ a{
+    text-decoration: none;
+    color: #365899;
+}
+a:hover{
+    text-decoration: underline;
+}
+.footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+.footer a {
+    color: #365899;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+#for{
+    color: whitesmoke;
+    text-decoration: none;
+}

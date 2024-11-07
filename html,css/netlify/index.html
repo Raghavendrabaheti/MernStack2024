@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="display" class="display">0</div>
+        <div class="buttons">
+            <div class="row">
+                <button class="btn gray" onclick="clearDisplay()">AC</button>
+                <button class="btn gray" onclick="toggleSign()">+/-</button>
+                <button class="btn gray" onclick="appendToDisplay('%')">%</button>
+                <button class="btn orange" onclick="appendToDisplay('/')">/</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="appendToDisplay('7')">7</button>
+                <button class="btn" onclick="appendToDisplay('8')">8</button>
+                <button class="btn" onclick="appendToDisplay('9')">9</button>
+                <button class="btn orange" onclick="appendToDisplay('*')">*</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="appendToDisplay('4')">4</button>
+                <button class="btn" onclick="appendToDisplay('5')">5</button>
+                <button class="btn" onclick="appendToDisplay('6')">6</button>
+                <button class="btn orange" onclick="appendToDisplay('-')">-</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="appendToDisplay('1')">1</button>
+                <button class="btn" onclick="appendToDisplay('2')">2</button>
+                <button class="btn" onclick="appendToDisplay('3')">3</button>
+                <button class="btn orange" onclick="appendToDisplay('+')">+</button>
+            </div>
+            <div class="row">
+                <button class="btn double" onclick="appendToDisplay('0')">0</button>
+                <button class="btn" onclick="appendToDisplay('.')">.</button>
+                <button class="btn orange" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>

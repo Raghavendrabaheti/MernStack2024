@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+/* Center the header content */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+p {
+    color: #333;
+}
+
+/* Styling for the profile views counter */
+p img {
+    margin: 10px 0;
+}
+
+/* Social Links */
+p a {
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+p a:hover {
+    transform: scale(1.1);
+}
+
+p a img {
+    border-radius: 8px;
+}
+
+/* Languages and Tools */
+.languages-tools img {
+    margin: 10px 15px;
+    transition: transform 0.2s;
+}
+
+.languages-tools img:hover {
+    transform: scale(1.1);
+}
+
+/* GitHub Stats */
+.github-stats img {
+    margin: 20px 0;
+}
+
+/* Align center for sections */
+h3, p, .github-stats {
+    text-align: center;
+}
+
+/* For smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .languages-tools img, .github-stats img {
+        width: 100%;
+        height: auto;
+    }
+}

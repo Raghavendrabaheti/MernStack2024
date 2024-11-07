@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.container{
+    height: 60px;
+    background-color: rgb(253, 253, 253);
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 60px;
+    width: 64px;
+}
+.hea{
+    display: flex;
+    margin-top: -39px;
+    gap: 40px;
+    margin-left: 349px;
+}
+.hea a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.btnn{
+    margin-left: 980px;
+    /* display: flex; */
+    margin-top: -4.2%;
+    font-family: 13px;
+    padding: 12px;
+    
+}
+
+.btnn button{
+    color: white;
+    height: 50px;
+    border: white;
+    width:200px;
+    cursor: pointer;
+    background-color: rgb(244, 39, 39);
+}
+.mid{
+    background-image: url(WhatsApp\ Image\ 2024-08-07\ at\ 14.08.38.jpeg);
+    background-size:cover;
+    height: 92vh;
+    width: 100vw;
+    position: absolute;
+    top: -5px;
+    z-index: -1;
+}
+.mid h1{
+    position: absolute;
+    top: 55%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 44px;
+}
+.mid p {
+    position: absolute;
+    top: 67%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+}
+.btn{
+    position: absolute;
+    top: 72%;
+    left: 64%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px 45px;
+}
+
+.fot{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:90vh;
+    width: 100vw;
+}
+.hh{
+
+    /* width: ; */
+    padding-left: 21px;
+}
+.f2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+#email{
+    height: 6vh;
+    padding-right: 35px;
+
+}
+.f2 button{
+
+    background-color: rgb(0, 140, 255);
+    border: 1px ;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px 45px;
+   
+}

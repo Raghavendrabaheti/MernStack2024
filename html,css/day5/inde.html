@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con p:last-child{
+            color: aqua;
+        }
+        .con{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            transition: width 5s height 5s;
+
+        }
+        .con:hover{
+            color: blue;
+            height: 400px;
+            width: 400px;
+            transition: ease-in;
+        }
+        /* h1{ */
+            /* Transition property
+            transition: all 200msv ease-in-out 100ms;
+        }
+        h1:hover{
+            color: blue;
+            font-size: 39px;
+
+        } */
+    </style>
+</head>
+<body>
+    <h1>text</h1>
+    <div class="con">
+        <p>First</p>
+        <p>Second</p>
+        <p>third</p>
+    </div>
+
+    <h1>CSS</h1>
+</body>
+</html>
