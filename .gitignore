@@ -1,0 +1,5 @@
+echo ".DS_Store" >> .gitignore
+echo "nodejs/" >> .gitignore
+echo "product-card-app/" >> .gitignore
+echo "react_practice/" >> .gitignore
+echo "native/nativetr2" >> .gitignore
